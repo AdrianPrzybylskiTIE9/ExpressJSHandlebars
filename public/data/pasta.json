@@ -1,0 +1,53 @@
+{
+    "spaghetti": {
+      "name": "spaghetti",
+      "title": "Spaghetti Carbonara",
+      "image": "spaghetti.png",
+      "shortDescription": "Klasyczne włoskie danie z jajkami, serem, pancettą i czarnym pieprzem.",
+      "description": "Klasyczne włoskie danie z jajkami, serem, pancettą i czarnym pieprzem. To danie jest jednym z najpopularniejszych dań kuchni włoskiej i jest uwielbiane na całym świecie. Spaghetti Carbonara jest znane ze swojego prostego, ale wyjątkowego smaku, który pochodzi od głównych składników: jajek, sera parmezan i chrupiącej pancetty.",
+      "preparation": "1. Ugotuj spaghetti w osolonej wodzie. 2. W osobnej patelni smaż pancettę na chrupko. 3. Ubij jajka, ser i pieprz. 4. Wrzuć ugotowane spaghetti do mieszanki jajkowej i pancetty. 5. Podawaj gorące.",
+      "ingredients": [
+        "spaghetti",
+        "jajka",
+        "ser",
+        "pancetta",
+        "czarny pieprz"
+      ],
+      "preparationTime": 30
+    },
+    "fusilli": {
+      "name": "fusilli",
+      "title": "Fusilli Primavera",
+      "image": "fusilli.png",
+      "shortDescription": "Kolorowe danie z różnymi warzywami i ziołami.",
+      "description": "Fusilli Primavera to kolorowe danie z różnymi warzywami i ziołami. To danie jest pełne świeżości i smaku. Fusilli, które są popularnym rodzajem włoskiego makaronu, łączą się z soczystymi warzywami i aromatycznymi ziołami, tworząc wyjątkową kompozycję smaków.",
+      "preparation": "1. Ugotuj fusilli al dente. 2. Smaż mieszane warzywa na oliwie. 3. Wrzuć ugotowane fusilli do smażonych warzyw i ziół. 4. Dopraw solą i pieprzem. 5. Smacznego.",
+      "ingredients": [
+        "fusilli",
+        "warzywa",
+        "oliwa",
+        "zioła",
+        "sól",
+        "pieprz"
+      ],
+      "preparationTime": 40
+    },
+    "ravioli": {
+      "name": "ravioli",
+      "title": "Ravioli ze szpinakiem i ricottą",
+      "image": "ravioli.png",
+      "shortDescription": "Pyszne nadziewane pierogi z szpinakiem i serem ricotta.",
+      "description": "Ravioli ze szpinakiem i ricottą to pyszne nadziewane pierogi. To danie jest znane ze swojego delikatnego nadzienia, które łączy świeży szpinak z kremowym serem ricotta. Ravioli podawane są z aromatycznym sosem z masła i szałwii oraz posypane startym serem parmezan.",
+      "preparation": "1. Ugotuj ravioli aż wynurzą się na powierzchnię. 2. Przygotuj sos z masła i szałwii. 3. Wrzuć ugotowane ravioli do sosu. 4. Posyp startym serem parmezan. 5. Podawaj gorące.",
+      "ingredients": [
+        "ravioli",
+        "szpinak",
+        "ricotta",
+        "masło",
+        "szałwia",
+        "ser parmezan"
+      ],
+      "preparationTime": 25
+    }
+  }
+  
