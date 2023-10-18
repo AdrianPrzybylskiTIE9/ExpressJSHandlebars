@@ -1,11 +1,58 @@
 <div class="pasta">
     <div class="pastaLeft">
-        <img src="/assets/{{pastaData.image}}" alt="Spaghetti Plate">    
+        <img src="/assets/{{pastaData.image}}" alt="Spaghetti Plate">
     </div>
     <div class="pastaRight">
         <h1>{{pastaData.name}}</h1>
-        <p>{{pastaData.description}}</p>
-        <span>{{pastaData.preparationTime}} min</span>
-        <span>{{pastaData.ingredients.length}} skladnikow</span>
+        <div class="pastaDesc">
+            {{!-- {{#if (lt pastaData.preparation.length 7)}} --}}
+            {{#if (lt pastaData.preparation.length 5)}}
+            <span class="easy">Łatwe</span>
+            {{else if (lt pastaData.preparation.length 6)}}
+            <span class="medium">Średnie</span>
+            {{else}}
+            <span class="difficult">Trudne</span>
+            {{/if}}
+            <p>{{pastaData.description}}</p>
+            <div class="pastaInfo">
+                <div class="pastaInfoContainer">
+                    <span>{{pastaData.preparationTime}}</span>
+                    <span>min</span>
+                </div>
+                <div class="pastaInfoContainer">
+                    <span>{{pastaData.preparation.length}}</span>
+                    <span>kroków</span>
+                </div>
+                <div class="pastaInfoContainer">
+                    <span>{{pastaData.ingredients.length}}</span>
+                    <span>skladnikow</span>
+                </div>
+            </div>
+            <a href="#recepie">
+                <button>
+                    Zobacz przepis
+                </button>
+            </a>
+        </div>
     </div>
+</div>
+<div class="sectionContainer" id="recepie">
+    <h1>
+        Przepis
+        <img src="/assets/mustache.svg" alt="Mustache">
+    </h1>
+    <p>Przygotowanie <span class="upperCase">{{pastaData.name}}</span> wcale nie jest takie trudne! </p>
+    <h3>Składniki</h3>
+    <div class="sectionRowContainer">
+        {{#each pastaData.ingredients}}
+        <div class="recepieStep upperCase">{{this}}</div>
+        {{/each}}
+    </div>
+    <h3>Kroki</h3>
+    <div class="sectionRowContainer">
+        {{#each pastaData.preparation}}
+        <div class="recepieStep">{{this}}</div>
+        {{/each}}
+    </div>
+    <h4>Gotowe!</h4>
 </div>

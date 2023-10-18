@@ -1,53 +1,146 @@
 {
-    "spaghetti": {
-      "name": "spaghetti",
-      "title": "Spaghetti Carbonara",
-      "image": "spaghetti.png",
-      "shortDescription": "Klasyczne włoskie danie z jajkami, serem, pancettą i czarnym pieprzem.",
-      "description": "Klasyczne włoskie danie z jajkami, serem, pancettą i czarnym pieprzem. To danie jest jednym z najpopularniejszych dań kuchni włoskiej i jest uwielbiane na całym świecie. Spaghetti Carbonara jest znane ze swojego prostego, ale wyjątkowego smaku, który pochodzi od głównych składników: jajek, sera parmezan i chrupiącej pancetty.",
-      "preparation": "1. Ugotuj spaghetti w osolonej wodzie. 2. W osobnej patelni smaż pancettę na chrupko. 3. Ubij jajka, ser i pieprz. 4. Wrzuć ugotowane spaghetti do mieszanki jajkowej i pancetty. 5. Podawaj gorące.",
-      "ingredients": [
-        "spaghetti",
-        "jajka",
-        "ser",
-        "pancetta",
-        "czarny pieprz"
-      ],
-      "preparationTime": 30
-    },
-    "fusilli": {
-      "name": "fusilli",
-      "title": "Fusilli Primavera",
-      "image": "fusilli.png",
-      "shortDescription": "Kolorowe danie z różnymi warzywami i ziołami.",
-      "description": "Fusilli Primavera to kolorowe danie z różnymi warzywami i ziołami. To danie jest pełne świeżości i smaku. Fusilli, które są popularnym rodzajem włoskiego makaronu, łączą się z soczystymi warzywami i aromatycznymi ziołami, tworząc wyjątkową kompozycję smaków.",
-      "preparation": "1. Ugotuj fusilli al dente. 2. Smaż mieszane warzywa na oliwie. 3. Wrzuć ugotowane fusilli do smażonych warzyw i ziół. 4. Dopraw solą i pieprzem. 5. Smacznego.",
-      "ingredients": [
-        "fusilli",
-        "warzywa",
-        "oliwa",
-        "zioła",
-        "sól",
-        "pieprz"
-      ],
-      "preparationTime": 40
-    },
-    "ravioli": {
-      "name": "ravioli",
-      "title": "Ravioli ze szpinakiem i ricottą",
-      "image": "ravioli.png",
-      "shortDescription": "Pyszne nadziewane pierogi z szpinakiem i serem ricotta.",
-      "description": "Ravioli ze szpinakiem i ricottą to pyszne nadziewane pierogi. To danie jest znane ze swojego delikatnego nadzienia, które łączy świeży szpinak z kremowym serem ricotta. Ravioli podawane są z aromatycznym sosem z masła i szałwii oraz posypane startym serem parmezan.",
-      "preparation": "1. Ugotuj ravioli aż wynurzą się na powierzchnię. 2. Przygotuj sos z masła i szałwii. 3. Wrzuć ugotowane ravioli do sosu. 4. Posyp startym serem parmezan. 5. Podawaj gorące.",
-      "ingredients": [
-        "ravioli",
-        "szpinak",
-        "ricotta",
-        "masło",
-        "szałwia",
-        "ser parmezan"
-      ],
-      "preparationTime": 25
-    }
+  "spaghetti": {
+    "name": "spaghetti",
+    "title": "Spaghetti Carbonara",
+    "image": "spagetitti.png",
+    "shortDescription": "Klasyczne włoskie danie z jajkami, serem, pancettą i czarnym pieprzem.",
+    "description": "Klasyczne włoskie danie z jajkami, serem, pancettą i czarnym pieprzem. To danie jest jednym z najpopularniejszych dań kuchni włoskiej i jest uwielbiane na całym świecie. Spaghetti Carbonara jest znane ze swojego prostego, ale wyjątkowego smaku, który pochodzi od głównych składników: jajek, sera parmezan i chrupiącej pancetty.",
+    "preparation": [
+      "Ugotuj spaghetti w osolonej wodzie.",
+      "W osobnej patelni smaż pancettę na chrupko.",
+      "Ubij jajka, ser i pieprz.",
+      "Wrzuć ugotowane spaghetti do mieszanki jajkowej i pancetty.",
+      "Podawaj gorące."
+    ],
+    "ingredients": ["spaghetti", "jajka", "ser", "pancetta", "czarny pieprz"],
+    "preparationTime": 30
+  },
+  "fusilli": {
+    "name": "fusilli",
+    "title": "Fusilli Primavera",
+    "image": "fusilli.png",
+    "shortDescription": "Kolorowe danie z różnymi warzywami i ziołami.",
+    "description": "Fusilli Primavera to kolorowe danie z różnymi warzywami i ziołami. To danie jest pełne świeżości i smaku. Fusilli, które są popularnym rodzajem włoskiego makaronu, łączą się z soczystymi warzywami i aromatycznymi ziołami, tworząc wyjątkową kompozycję smaków.",
+    "preparation": [
+      "Ugotuj fusilli al dente.",
+      "Smaż mieszane warzywa na oliwie.",
+      "Wrzuć ugotowane fusilli do smażonych warzyw i ziół.",
+      "Dopraw solą i pieprzem.",
+      "Smacznego."
+    ],
+    "ingredients": ["fusilli", "warzywa", "oliwa", "zioła", "sól", "pieprz"],
+    "preparationTime": 40
+  },
+  "ravioli": {
+    "name": "ravioli",
+    "title": "Ravioli ze szpinakiem i ricottą",
+    "image": "ravioli.png",
+    "shortDescription": "Pyszne nadziewane pierogi z szpinakiem i serem ricotta.",
+    "description": "Ravioli ze szpinakiem i ricottą to pyszne nadziewane pierogi. To danie jest znane ze swojego delikatnego nadzienia, które łączy świeży szpinak z kremowym serem ricotta. Ravioli podawane są z aromatycznym sosem z masła i szałwii oraz posypane startym serem parmezan.",
+    "preparation": [
+      "Ugotuj ravioli aż wynurzą się na powierzchnię.",
+      "Przygotuj sos z masła i szałwii.",
+      "Wrzuć ugotowane ravioli do sosu.",
+      "Posyp startym serem parmezan.",
+      "Podawaj gorące."
+    ],
+    "ingredients": [
+      "ravioli",
+      "szpinak",
+      "ricotta",
+      "masło",
+      "szałwia",
+      "ser parmezan"
+    ],
+    "preparationTime": 25
+  },
+  "lasagna": {
+    "name": "lasagna",
+    "title": "Lasagna Bolognese",
+    "image": "lasagna.png",
+    "shortDescription": "Klasyczna włoska lasagna z mięsem mielonym i sosem beszamelowym.",
+    "description": "Lasagna Bolognese to klasyczne włoskie danie, które składa się z warstw makaronu lasagna, mięsa mielonego w sosie pomidorowym i sosem beszamelowym. To danie jest soczyste, aromatyczne i pełne smaku.",
+    "preparation": [
+      "Przygotuj sos Bolognese z mięsa mielonego i pomidorów.",
+      "Przygotuj sos beszamelowy.",
+      "Warstwuj makaron lasagna, sos Bolognese i sos beszamelowy.",
+      "Piec w piekarniku do zrumienienia.",
+      "Podawaj gorące."
+    ],
+    "ingredients": [
+      "makaron lasagna",
+      "mięso mielone",
+      "pomidory",
+      "sos beszamelowy"
+    ],
+    "preparationTime": 60
+  },
+  "gnocchi": {
+    "name": "gnocchi",
+    "title": "Gnocchi z sosem pomidorowym i bazylią",
+    "image": "gnocchi.png",
+    "shortDescription": "Kluski gnocchi z sosem pomidorowym i świeżą bazylią.",
+    "description": "Gnocchi z sosem pomidorowym i bazylią to proste danie, które łączy delikatne kluski gnocchi z sosem pomidorowym z dodatkiem świeżej bazylii. To danie jest lekkie i pełne smaku.",
+    "preparation": [
+      "Ugotuj gnocchi al dente.",
+      "Przygotuj sos pomidorowy z dodatkiem bazylii.",
+      "Wrzuć ugotowane gnocchi do sosu.",
+      "Podawaj gorące."
+    ],
+    "ingredients": ["gnocchi", "sos pomidorowy", "bazyliia"],
+    "preparationTime": 20
+  },
+  "risotto": {
+    "name": "risotto",
+    "title": "Risotto z grzybami",
+    "image": "risotto.png",
+    "shortDescription": "Klasyczne włoskie risotto z aromatycznymi grzybami.",
+    "description": "Risotto z grzybami to klasyczne włoskie danie, w którym kremowy ryż łączy się z aromatycznymi grzybami. To danie jest pełne smaku i doskonale nadaje się na obiad lub kolację.",
+    "preparation": [
+      "Smaż cebulę i czosnek na oliwie.",
+      "Dodaj ryż i smaż chwilę.",
+      "Stopniowo dodawaj bulion i gotuj, mieszając.",
+      "Dodaj podsmażone grzyby i parmezan.",
+      "Podawaj gorące."
+    ],
+    "ingredients": [
+      "ryż arborio",
+      "grzyby",
+      "cebula",
+      "czosnek",
+      "bulion",
+      "parmezan"
+    ],
+    "preparationTime": 35
+  },
+  "tagliatelle": {
+    "name": "tagliatelle",
+    "title": "Tagliatelle z sosem śmietanowym i szynką",
+    "image": "tagliatelle.png",
+    "shortDescription": "Tagliatelle z kremowym sosem śmietanowym i szynką.",
+    "description": "Tagliatelle z sosem śmietanowym i szynką to danie, które łączy delikatne tagliatelle z kremowym sosem śmietanowym i kawałkami szynki. To danie jest pyszne i sycące.",
+    "preparation": [
+      "Ugotuj tagliatelle al dente.",
+      "Przygotuj sos śmietanowy z dodatkiem szynki.",
+      "Wrzuć ugotowane tagliatelle do sosu.",
+      "Podawaj gorące."
+    ],
+    "ingredients": ["tagliatelle", "śmietana", "szynka"],
+    "preparationTime": 25
+  },
+  "penne": {
+    "name": "penne",
+    "title": "Penne all'arrabbiata",
+    "image": "penne.png",
+    "shortDescription": "Penne z pikantnym sosem pomidorowym i papryczką chili.",
+    "description": "Penne all'arrabbiata to danie z pikantnym sosem pomidorowym i papryczką chili. To danie ma wyrazisty smak i idealnie nadaje się dla miłośników ostrych potraw.",
+    "preparation": [
+      "Ugotuj penne al dente.",
+      "Przygotuj pikantny sos pomidorowy z papryczką chili.",
+      "Wrzuć ugotowane penne do sosu.",
+      "Podawaj gorące."
+    ],
+    "ingredients": ["penne", "sos pomidorowy", "papryczka chili"],
+    "preparationTime": 30
   }
-  
+}

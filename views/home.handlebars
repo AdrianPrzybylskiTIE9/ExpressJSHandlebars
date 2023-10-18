@@ -2,24 +2,22 @@
     <div class="heroLeft">
         <h1>Witaj Makaroniarzu</h1>
         <p>Tutaj znajdziesz wiele informacji na temat różnych rodzajów makaronów.</p>
-        <a href="#featuredPastas"><Button>Czytaj dalej</Button></a>
+        <a href="#featuredPastas"><Button>Zobacz przepisy</Button></a>
     </div>
     <div class="heroRight">
         <img src="/assets/spaghetti.png" alt="Spaghetti Plate">
     </div>
 </div>
 <div class="sectionContainer" id="featuredPastas">
-    <h1>Polecane</h1>
+    <h1>
+        Polecane
+        <img src="/assets/mustache.svg" alt="Mustache">
+    </h1>
+
 
     <div class="scrollableRow">
-        {{!-- <a class="featured" href="/pasta/spaghetti">
-            <img src="/assets/spaghetti.png" alt="Spaghetti Plate">
-            <p>Spaghetti</p>
-            <span>Spaghetti to włoski makaron podawany z różnymi sosami.</span>
-            <span class="bg"></span>
-        </a> --}}
         {{#each pastaData}}
-            <a class="featured" href="/pasta/{{this.name}}">
+        <a class="featured" href="/pasta/{{this.name}}">
             <img src="/assets/{{this.image}}" alt={{this.name}}>
             <p>{{this.name}}</p>
             <span>{{this.shortDescription}}</span>
